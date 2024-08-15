@@ -14,7 +14,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
+    /* padding: 50px;
+    gap: 400px; */
 }
 .cb{
     background-color: black;
@@ -75,6 +76,8 @@
 }
 .lp{
     margin-left: 250px;
+    width: 520px;
+    
 }
 .get-body{
     font-size: 78px;
@@ -108,7 +111,7 @@
 }
 /* image related part header */
 .img-2{
-    margin-right: 300px;
+    margin-right: 200px;
 }
 .free{
      padding: 20px 23px;
@@ -125,12 +128,14 @@
 
 }
 .free{
-    bottom: 400px;
     right: 300px;
+    bottom: 350px;
 }
 .c1{
-    bottom: 100px;
-    left: 1150px;    
+    bottom: -100px;
+    left: 800px;   
+    width: 206px;
+    height: 96px; 
 
 }
 
@@ -174,7 +179,11 @@
 /* run an extra mile easily */
 /* .run-extra{
     display: flex; */
-
+.dis{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+}
 .run{
     display: flex;
     width: 1160px;
@@ -182,7 +191,7 @@
     background-color: #222222 ;
     justify-content: space-between;
     align-items: center;
-    margin: 300px ;
+    margin: 150px ;
     border-radius: 18px;
     padding: 54px  40px;
 }
@@ -229,16 +238,47 @@
     text-align: left;
 }
   
+.btn-primary12{
+    width: 225px;
+    padding: 16px 46px;
+    color: #FFFFFF;
+    background-color: #E6533C;
+    border-radius: 46px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
 .bmi-calcultator{
     width: 55%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+
+}
+.cal-title{
+    font-size: 28px;
+    font-weight: 800;
+}
+.cal-discription{
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.cal-up{
+    font-size: 16px;
+    font-weight: 500px;
+}
+.cal-tb{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.sa{
+    color: rgba(255, 255, 255, 0.6);
 }
 .bmi-calcultator form{
     display: flex;
     flex-direction: column;
 }
-.bmi-calcultator input , .bmi-calcultator select{
-    color: white;
+.bmi-calcultator input , .bmi-calcultator select, .yt{
+    /* color: white; */
+    color: rgba(255, 255, 255, 0.6);
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 12px;
@@ -249,6 +289,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
+    
 }
 
 /* meet our team  */
