@@ -1,0 +1,370 @@
+/* Font style part */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* shared styles */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.cb{
+    background-color: black;
+}
+.color-ash{
+    background-color: #777777;   
+}
+
+/* text color */
+.text-color-orange{
+    color: #E6533C;
+}
+.text-color-white{
+    color: #FFFFFF;
+}
+.bg-dark{
+    background-color: black;
+}
+/* header */
+
+/* navbar styles */
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.navbar{
+    justify-content: space-between;
+    
+}
+.brand{
+    font-weight: 800;
+    font-size: 36px;
+    margin-left: 70px;
+}
+.na{
+    margin-right: 100px;
+}
+.nav-links{
+    border: 2px solid rgb(187, 174, 174);
+    border-radius: 40px;
+    padding: 5px 10px;
+        
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+}
+.navbar{
+    max-width: 1400px;
+    margin: 0 auto;    
+}
+.nav-link1{
+    padding: 8px 20px;
+    text-decoration: none;
+    background-color: #E6533C;
+    border-radius: 46px;
+}
+.lp{
+    margin-left: 250px;
+}
+.get-body{
+    font-size: 78px;
+    color: #FFFFFF;
+}
+.get-body-discription{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 50%;
+    
+}
+.btn-primary1{
+    padding: 16px 46px;
+    color: #FFFFFF;
+    background-color: #E6533C;
+    border-radius: 46px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.btn-primary2{
+    padding: 16px 46px;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 42px;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* image related part header */
+.img-2{
+    margin-right: 300px;
+}
+.free{
+     padding: 20px 23px;
+     color: white;
+    
+}
+.c1, .free{
+    position: absolute;
+     /* background-color: #777777; */
+     background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px 25px;
+    border-radius: 12px;
+    color: white;
+
+}
+.free{
+    bottom: 400px;
+    right: 300px;
+}
+.c1{
+    bottom: 100px;
+    left: 1150px;    
+
+}
+
+/* Change your habbit */
+.banner-content {
+    max-width: 671px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.banner-title{
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner-discription{
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.img-title{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.img-discrption{
+    font-size: 14px;
+    color: #FFFFFF ;
+    opacity: 50%;
+    max-width: 200px;
+    text-align: center;
+}
+.whole{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* run an extra mile easily */
+/* .run-extra{
+    display: flex; */
+
+.run{
+    display: flex;
+    width: 1160px;
+    height: 370px;
+    background-color: #222222 ;
+    justify-content: space-between;
+    align-items: center;
+    margin: 300px ;
+    border-radius: 18px;
+    padding: 54px  40px;
+}
+.run-title, .meet-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.run-discrption , .meet-discription{
+    color: #FFFFFF;
+    opacity: 50%;
+}
+.run-img{
+    width: 450px;
+    height: 310x;
+    border-radius: 18px;
+}
+
+/* BMI calculater */
+.bmi{
+    justify-content: space-between;
+    margin-left: 450px;
+}
+
+.bmi-title{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.bmi-discription{
+    color: #FFFFFF;
+    opacity: 50%;
+    text-align: center;   
+}
+.bmi-chart{
+    max-width: 55%;
+}
+.bmi-chart table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.bmi-chart table, .bmi-chart th, .bmi-chart td{
+    border: 2px solid #444;
+    padding: 15px;
+    text-align: left;
+}
+  
+.bmi-calcultator form{
+    display: flex;
+    flex-direction: column;
+}
+.bmi-calcultator input , .bmi-calcultator select{
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background-color: #444;
+    
+}
+.gr{
+    display: grid;
+    grid-template-columns: 2, 1fr;
+}
+
+/* meet our team  */
+
+.section-title{
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.section-discrption{
+    font-size: 18px;
+    text-align: center;
+    color: #444;
+}
+.six-image{
+    width: 80%;
+    height: 640px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.six-image1{
+     display: flex;
+     justify-content: space-between;
+     border-radius: none;
+}
+.six-image2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-s{
+    width: 30%;
+    height: 300px;
+}
+.p-discription{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.trainer1{
+    background-image: url(../images/trainer1.png);
+    background-size: cover;
+}
+.trainer2{
+    background-image: url(../images/trainer2.png);
+    background-size: cover;
+}
+.trainer3{
+    background-image: url(../images/trainer3.png);
+    background-size: cover;
+}
+.trainer4{
+    background-image: url(../images/trainer4.png);
+    background-size: cover;
+}
+.trainer5{
+    background-image: url(../images/trainer5.png);
+    background-size: cover;
+}
+.trainer6{
+    background-image: url(../images/trainer6.png);
+    background-size: cover;
+}
+.img-s h2{
+   padding-left: 20px;
+   padding-top: 190px;
+   font-size: 20px;
+}
+
+.img-s p{
+    padding-left: 20px;
+    /* padding-top: 220px; */
+}
+/* footer part */
+.reserved{
+    font-size: 20px;   
+    color: #444;
+    text-align: center;
+    
+}
+hr{
+    color: #FFFFFF;
+    opacity: 10%;
+}
+.footer-div1{
+    width: 500px;
+}
+.footer-div2{
+    width: 300px;
+}
+.footer-div3{
+    width: 300px;
+}
+.footer{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);    
+}
+.footer-title{
+    font-size: 70px;
+    font-weight: 800;
+    color: #E6533C;
+    
+}
+.footer-discription{
+    color: #777777;
+    font-size: 14px ;
+    
+}
+.nav-1{
+    color: #777777;
+    font-size: 22px;
+}
+.footer-title2{
+    font-size: 32px ;
+    font-weight: bold;
+    margin-left: 35px;
+}
+hr{
+    width: 1060px ;
+}
