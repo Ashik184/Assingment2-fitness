@@ -202,8 +202,7 @@
 
 /* BMI calculater */
 .bmi{
-    justify-content: space-between;
-    margin-left: 450px;
+    
 }
 
 .bmi-title{
@@ -218,6 +217,7 @@
 }
 .bmi-chart{
     max-width: 55%;
+    padding-left: 180px;
 }
 .bmi-chart table{
     width: 100%;
@@ -229,6 +229,10 @@
     text-align: left;
 }
   
+.bmi-calcultator{
+    width: 55%;
+    border: 1px solid red;
+}
 .bmi-calcultator form{
     display: flex;
     flex-direction: column;
@@ -243,7 +247,8 @@
 }
 .gr{
     display: grid;
-    grid-template-columns: 2, 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
 }
 
 /* meet our team  */
@@ -367,4 +372,8 @@ hr{
 }
 hr{
     width: 1060px ;
+}
+
+.border1{
+    border: 1px solid red;
 }
